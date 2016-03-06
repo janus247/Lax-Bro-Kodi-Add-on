@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.laxbro" name="Lax Bro 1.0" version="2016.02.17" provider-name="janus">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>   
+   </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+  </extension>  
+  <extension point="xbmc.addon.metadata">    
+    <platform>all</platform>
+    <summary lang="en">College lacrosse action -- archived and occasionally live</summary>
+    <description lang="en">Lax Bro is an aggregator of live and archived lacrosse matches otherwise available for free viewing across the Internet.  Sources of streams include Livestream accounts, Stretch Internet portals and Youtube video.  Lax Bro requires up-to-date Youtube and Livestream Kodi add ons.</description>
+    <disclaimer lang="en">Lax Bro is not affiliated with any of the colleges or universities or teams whose matches are available on this site nor any of the video content providers.  Lax Bro does not produce any of the content and claims no ownership in any of the content.  The sole intention of Lax Bro is to make it easier to locate free lacrosse action and bring it to Kodi for viewing through a TV Box or computer.  For best results, including live stats and social media feeds in some instances, visit the official site airing the content.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email>the.janus.247@gmail.com</email>
+    <source></source>
+  </extension>
+</addon>
